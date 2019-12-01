@@ -17,8 +17,16 @@ padding-left: 50px;
 
 .BodyContainer {
 margin: 10px 15%;
-
 }
+
 h2{
 font-size: 1000px;
+}
+
+.BodyMargin {
+margin-left: 100px;
+}
+
+.PictureMe img{
+height: 15em;
 }

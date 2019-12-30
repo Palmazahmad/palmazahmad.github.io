@@ -1,11 +1,11 @@
-current directory: /Users/palmazahmad/blog/vendor/bundle/ruby/2.6.0/gems/sassc-2.2.1/ext
-/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby -I /Library/Ruby/Site/2.6.0 -r ./siteconf20191229-6775-12vnp5b.rb extconf.rb
+current directory: /Users/palmazahmad/Palmazahmad.com/vendor/bundle/ruby/2.6.0/gems/sassc-2.2.1/ext
+/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby -I /Library/Ruby/Site/2.6.0 -r ./siteconf20191230-2405-pmi2rg.rb extconf.rb
 creating Makefile
 
-current directory: /Users/palmazahmad/blog/vendor/bundle/ruby/2.6.0/gems/sassc-2.2.1/ext
+current directory: /Users/palmazahmad/Palmazahmad.com/vendor/bundle/ruby/2.6.0/gems/sassc-2.2.1/ext
 make "DESTDIR=" clean
 
-current directory: /Users/palmazahmad/blog/vendor/bundle/ruby/2.6.0/gems/sassc-2.2.1/ext
+current directory: /Users/palmazahmad/Palmazahmad.com/vendor/bundle/ruby/2.6.0/gems/sassc-2.2.1/ext
 make "DESTDIR="
 compiling ./libsass/src/units.cpp
 compiling ./libsass/src/fn_miscs.cpp
@@ -71,6 +71,6 @@ compiling ./libsass/src/c2ast.cpp
 linking shared-object sassc/libsass.bundle
 ld: warning: directory not found for option '-L/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.Internal.sdk/usr/local/lib'
 
-current directory: /Users/palmazahmad/blog/vendor/bundle/ruby/2.6.0/gems/sassc-2.2.1/ext
+current directory: /Users/palmazahmad/Palmazahmad.com/vendor/bundle/ruby/2.6.0/gems/sassc-2.2.1/ext
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 libsass.bundle ./.gem.20191229-6775-1uwjjwm/sassc
+/usr/bin/install -c -m 0755 libsass.bundle ./.gem.20191230-2405-7xq3no/sassc

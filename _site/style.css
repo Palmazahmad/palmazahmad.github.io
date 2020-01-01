@@ -498,7 +498,7 @@ footer .footer-below {
     -webkit-transform: translateZ(0);
 }
 
-#blog { 
+.blog { 
     color: #fff;
     background-color: #3AAFA9 !important;
     width: 100%;
@@ -552,10 +552,15 @@ table, th {
 }
    
 @media only screen and (max-width: 550px) {
-    #blog {
+    #blogger {
         width: 115vw;
     }
-    .text-center { 
+     #flow { 
         width: 115vw;
     }  
-}
+    #postspadding {
+        padding: 5px 5px;
+    }
+} 
+
+

@@ -49,11 +49,11 @@ social:
     url: http://github.com/palmazahmad
 
 # Quotes - need to add one often
-quote: The harder you work for something, the greater you'll feel when you achieve it. - My Mother :)
+quote: The harder you work for something,  the greater you'll feel when you achieve it. - Unknown. 
 
 
 # Blog content
-blog: 'My Blog contains all my own thoughts and must not be taken as anything else. It involves my Learning Journey and Personal Findings.'
+blog: 'My Blog contains all my own thoughts and learings which must not be taken as anything else.'
 
 # Build settings
 markdown: kramdown

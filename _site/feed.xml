@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator>
   <link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2020-01-01T16:07:25+00:00</updated>
+  <updated>2020-01-01T17:55:39+00:00</updated>
   <id>http://localhost:4000/</id>
 
   
@@ -20,89 +20,17 @@
   
   
     <entry>
-      <title type="html">New</title>
-      <link href="http://localhost:4000/personal/New/" rel="alternate" type="text/html" title="New" />
-      <published>2019-12-31T00:00:00+00:00</published>
-      <updated>2019-12-31T00:00:00+00:00</updated>
-      <id>http://localhost:4000/personal/New</id>
-      <content type="html" xml:base="http://localhost:4000/personal/New/">&lt;h1&gt;New Year Goals&lt;/h1&gt;
-
-&lt;p&gt;change the number of posts on the latests blogs to 5.&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Created by - Palmaz Ahmad on </name>
-        
-        
-      </author>
-
-      
-        <category term="Personal" />
-      
-
-      
-
-      
-        <summary type="html">New Year Goals</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
-      <title type="html">Test</title>
-      <link href="http://localhost:4000/tech/test/" rel="alternate" type="text/html" title="Test" />
-      <published>2019-12-30T00:00:00+00:00</published>
-      <updated>2019-12-30T00:00:00+00:00</updated>
-      <id>http://localhost:4000/tech/test</id>
-      <content type="html" xml:base="http://localhost:4000/tech/test/">&lt;p&gt;Who am I?&lt;/p&gt;
-
-&lt;p&gt;Hello, My name is Palmaz. I’m a 20 year old Computing student currently on Placement.&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>Created by - Palmaz Ahmad on </name>
-        
-        
-      </author>
-
-      
-        <category term="Tech" />
-      
-
-      
-
-      
-        <summary type="html">Who am I?</summary>
-      
-
-      
-      
-    </entry>
-  
-    <entry>
       <title type="html">Hi everyone, I’m Palmaz</title>
-      <link href="http://localhost:4000/personal/IntroToMe/" rel="alternate" type="text/html" title="Hi everyone, I'm Palmaz" />
+      <link href="http://localhost:4000/personal/1/" rel="alternate" type="text/html" title="Hi everyone, I'm Palmaz" />
       <published>2019-12-30T00:00:00+00:00</published>
       <updated>2019-12-30T00:00:00+00:00</updated>
-      <id>http://localhost:4000/personal/IntroToMe</id>
-      <content type="html" xml:base="http://localhost:4000/personal/IntroToMe/">&lt;h3 id=&quot;who-am-i&quot;&gt;Who am I?&lt;/h3&gt;
+      <id>http://localhost:4000/personal/1</id>
+      <content type="html" xml:base="http://localhost:4000/personal/1/">&lt;h3 id=&quot;who-am-i&quot;&gt;Who am I?&lt;/h3&gt;
 
-&lt;p&gt;Hello, My name is Palmaz. I’m a 20 year old Computing student currently on Placement, I primarily deal with data as an Data Analyst. I began my placement with little knowledge of working with large datasets and working with data in general. But I’ll leave my placement learnings for another time in another blog. This blogs purpose is to give you a quick introduction to me and my reasons for creating a webpage.&lt;/p&gt;
+&lt;p&gt;Hello, My name is Palmaz. I’m a 20 year old Computing student currently on Placement, I primarily deal with data as an Data Analyst. I began my placement with little knowledge of working with large datasets and working with data in general. But I’ll leave my placement learning’s for another time in another blog. This blog’s purpose is to give you a quick introduction to me and my reasons for creating a webpage.&lt;/p&gt;
 
 &lt;h3 id=&quot;why-make-this-website&quot;&gt;Why make this website?&lt;/h3&gt;
-&lt;p&gt;I wanted to make my first post about my reasons for making this site and what I hope to learn in the process. Firstly I came up with the idea a few months ago, I wanted to create a website of somesort as I wanted to develop my web development skills. But I wasnt sure what to make the site on, I started brain storming potentail ideas which would give me plenty of learning opportunities as well as challenge me. I always wanted a platform inwhich I could display my projects which i work on in my own time. So I decided to create a webpage which would act as my Portfolio as well as a place for me to share my thoughts and findings.&lt;/p&gt;
+&lt;p&gt;I wanted to make my first post about my reasons for making this site and what I hope to learn in the process. Firstly I came up with the idea a few months ago, I wanted to create a website of some sort as I wanted to develop my web development skills. But I wasn’t sure what to make the site on, I started brain storming potential ideas which would give me plenty of learning opportunities as well as challenge me. I always wanted a platform in which I could display my projects which I work on in my own time. So I decided to create a webpage which would act as my Portfolio as well as a place for me to share my thoughts and findings.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;My main reasons for creating this page were:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -111,21 +39,30 @@
   &lt;li&gt;Improve my writing skills - &lt;em&gt;Not my strong suit&lt;/em&gt;&lt;/li&gt;
   &lt;li&gt;Starting a Blog&lt;/li&gt;
   &lt;li&gt;Create a long term project&lt;/li&gt;
-  &lt;li&gt;Showcase my general learnings&lt;/li&gt;
+  &lt;li&gt;Showcase my general finding’s&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;strong&gt;My Goals for this Project&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&quot;my-hobbies&quot;&gt;My Hobbies&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/img/1stblackbelt.jpg&quot; alt=&quot;1stdegree&quot; /&gt;  &lt;img src=&quot;/img/Blackbelt.jpg&quot; alt=&quot;Blackbelt&quot; /&gt;&lt;br /&gt;
+&lt;br /&gt;
+Since the age of 4 I’ve trained in multiple martial arts such as Kickboxing (&amp;amp; American Style), Taekwondo (Traditional &amp;amp; Competitive), MMA, Thai Boxing, Boxing, Hapkido and others. I’ve competed internationally and won majors. I have over 14 years experience and have recently stopped to pursue other interests. I currently hold a 2nd Degree Blackbelt in Taekwondo (ITF).&lt;/p&gt;
+
+&lt;p&gt;I also enjoy creating small but useful projects in my free time, I have recently started learning Python. The reason why I decided to learn Python was automation. At work I needed to automate the process of exporting meta data from a system. I needed to extract from an .XML and (extracting certain tags) import them into an excel work sheet. I spoke to a colleague, who suggested a Python script. At the time I had never created a script so my colleague helped me create a script to automate this large process. Again I’ll go into detail about this script another time. Since then I’ve been learning and creating scripts for automating tasks as well as for fun.&lt;/p&gt;
+
+&lt;h3 id=&quot;sneak-peak&quot;&gt;Sneak Peak&lt;/h3&gt;
+&lt;p&gt;What I’m likely to post soon :&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;Be consistant with publishing my Blogs&lt;/li&gt;
-  &lt;li&gt;Improve and update the page often&lt;/li&gt;
-  &lt;li&gt;Build a strong portfolio which contains my learning journey&lt;/li&gt;
+  &lt;li&gt;Big Data LDN 2019 (Data Conference)&lt;/li&gt;
+  &lt;li&gt;Working With Large Data&lt;/li&gt;
+  &lt;li&gt;Goals for &lt;del&gt;2019&lt;/del&gt; 2020&lt;/li&gt;
+  &lt;li&gt;Python Scripts&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;p&gt;And more!!&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;Note - This page is likely to be updated as it’s the first post.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;!-- I really wanted a place where I could show case the projects I'm working on and projects I've completed in the past. I've always used Github as a place to store my projects as its great for accessing virtually on more than one machine. But I never used it as a platform for me to showcase my work. One of my personal interest in particular is automating processes, I find this interesting as it has the potential of making life so much easier and shorten time in doing &quot;the boring stuff&quot;.  --&gt;</content>
+&lt;/blockquote&gt;</content>
 
       
       

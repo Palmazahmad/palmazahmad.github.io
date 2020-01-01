@@ -10,28 +10,25 @@
             </div>
         </div>
         <div class="row">
-
-    <table class="btable">
+            <table class="btable">
            
-        <tr>
-            <th>Title</th>
-            <th>Description</th>
-            <th>Category</th>
-            <th>Date</th>    
-        </tr>
+            <tr>
+                <th>Title</th>
+                <th>Description</th>
+                <th>Category</th>
+                <th>Date</th>    
+            </tr>
             {% for post in site.posts limit: 5%}
-         <tr>
-            <td><a class="link" href="{{post.url}}">{{ post.title }}</a></td>
-            <td>{{ post.description }}</td>
-            <td>{{ post.category }}</td>
-             <td>{{ post.date }}</td>
+            <tr>
+                <td><a class="link" href="{{post.url}}">{{ post.title }}</a></td>
+                <td>{{ post.description }}</td>
+                <td>{{ post.category }}</td>
+                 <td>{{ post.date }}</td>
 
-            </tr> 
-            {% endfor %}
-        </table>
-                
-           
-        </div> 
+                </tr> 
+                {% endfor %}
+            </table>
+            </div> 
         
                 <div class="col-lg-12 text-center">
                     <br>

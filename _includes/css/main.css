@@ -287,8 +287,6 @@ section.success {
     }
 }
 
-
-
 .btn-outline {
     margin-top: 15px;
     border: solid 2px #fff;
@@ -512,10 +510,10 @@ footer .footer-below {
 }
 table{
     border-collapse: collapse;
-    width: 90%;
+    width: 100%;
   }
 table, th {
-    border: 2px solid #fff;
+    border: 2px solid white;
   }
   th { 
       color: #{{ site.color.secondary }};
@@ -544,4 +542,5 @@ table, th {
 .btn-outline-blog.active {
     color: #{{ site.color.primary }};
 }
+
 

@@ -1,0 +1,98 @@
+<!-- Portfolio Grid Section -->
+
+<section class="blog">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <br>
+                <h2>Latest Blogs</h2>
+                <hr class="star-light">
+            </div>
+        </div>
+        <div class="row">
+
+    <table class="btable">
+           
+        <tr>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Category</th>
+            <th>Date</th>    
+        </tr>
+            {% for post in site.posts %}
+         <tr>
+            <td><a class="link" href="{{post.url}}">{{ post.title }}</a></td>
+            <td>{{ post.description }}</td>
+            <td>{{ post.category }}</td>
+             <td>{{ post.date }}</td>
+
+            </tr> 
+            {% endfor %}
+        </table>
+                
+           
+        </div> 
+        <div class="row">
+                <div class="col-lg-12 text-center">
+                    <br>
+                    <h2>Category Personal</h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+            <div class="row">
+
+                    <table class="btable">
+                           
+                        <tr>
+                            <th>Title</th>
+                            <th>Description</th>
+                            <th>Category</th>
+                            <th>Date</th>    
+                        </tr>
+                        {% for post in site.posts %}
+                            {% if post.category == 'Personal' %}
+                         <tr>
+                            <td><a class="link" href="{{post.url}}">{{ post.title }}</a></td>
+                            <td>{{ post.description }}</td>
+                            <td>{{ post.category }}</td>
+                             <td>{{ post.date }}</td>
+                
+                            </tr> 
+                            {% endif %}
+                            {% endfor %}
+                        </table>
+
+                        <div class="row">
+                                <div class="col-lg-12 text-center">
+                                    <br>
+                                    <h2>Category Tech</h2>
+                                    <hr class="star-light">
+                                </div>
+                            </div>
+                            
+                
+                                <table class="btable">
+                                       
+                                    <tr>
+                                        <th>Title</th>
+                                        <th>Description</th>
+                                        <th>Category</th>
+                                        <th>Date</th>    
+                                    </tr>
+                                        {% for post in site.posts %} {% if post.category == 'Tech' %}
+                                         <tr>
+                                            <td><a class="link" href="{{post.url}}">{{ post.title }}</a></td>
+                                            <td>{{ post.description }}</td>
+                                            <td>{{ post.category }}</td>
+                                             <td>{{ post.date }}</td>
+                                
+                                            </tr> 
+                                            {% endif %}
+                                            {% endfor %}
+                                        </table>
+
+    
+    </div>
+</div>
+        
+ </section>

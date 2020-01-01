@@ -1,0 +1,11 @@
+---
+
+date: 2019-12-31
+img: submarine.png
+alt: image-alt
+category: Personal
+description: New Year
+---
+<h1>New Year Goals</h1>
+
+Hello, My name is Palmaz. I'm a 20 year old Computing student currently on Placement. 

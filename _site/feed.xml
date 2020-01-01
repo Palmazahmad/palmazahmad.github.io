@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator>
+  <link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="http://localhost:4000/" rel="alternate" type="text/html" />
+  <updated>2020-01-01T02:02:51+00:00</updated>
+  <id>http://localhost:4000/</id>
+
+  
+    <title type="html">Palmaz Ahmad</title>
+  
+
+  
+    <subtitle>Webpage Containg Palmaz Ahmads portfolio. This includes a Blog and Projects both previously worked on and current.</subtitle>
+  
+
+  
+
+  
+  
+    <entry>
+      <title type="html">New</title>
+      <link href="http://localhost:4000/personal/2019/12/31/New/" rel="alternate" type="text/html" title="New" />
+      <published>2019-12-31T00:00:00+00:00</published>
+      <updated>2019-12-31T00:00:00+00:00</updated>
+      <id>http://localhost:4000/personal/2019/12/31/New</id>
+      <content type="html" xml:base="http://localhost:4000/personal/2019/12/31/New/">&lt;h1&gt;New Year Goals&lt;/h1&gt;
+
+&lt;p&gt;Hello, My name is Palmaz. I’m a 20 year old Computing student currently on Placement.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Created by - Palmaz Ahmad at </name>
+        
+        
+      </author>
+
+      
+        <category term="Personal" />
+      
+
+      
+
+      
+        <summary type="html">New Year Goals</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Test</title>
+      <link href="http://localhost:4000/tech/2019/12/30/test/" rel="alternate" type="text/html" title="Test" />
+      <published>2019-12-30T00:00:00+00:00</published>
+      <updated>2019-12-30T00:00:00+00:00</updated>
+      <id>http://localhost:4000/tech/2019/12/30/test</id>
+      <content type="html" xml:base="http://localhost:4000/tech/2019/12/30/test/">&lt;p&gt;Who am I?&lt;/p&gt;
+
+&lt;p&gt;Hello, My name is Palmaz. I’m a 20 year old Computing student currently on Placement.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Created by - Palmaz Ahmad at </name>
+        
+        
+      </author>
+
+      
+        <category term="Tech" />
+      
+
+      
+
+      
+        <summary type="html">Who am I?</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Hi everyone, I’m Palmaz</title>
+      <link href="http://localhost:4000/personal/2019/12/30/IntroToMe/" rel="alternate" type="text/html" title="Hi everyone, I'm Palmaz" />
+      <published>2019-12-30T00:00:00+00:00</published>
+      <updated>2019-12-30T00:00:00+00:00</updated>
+      <id>http://localhost:4000/personal/2019/12/30/IntroToMe</id>
+      <content type="html" xml:base="http://localhost:4000/personal/2019/12/30/IntroToMe/">&lt;h3 id=&quot;who-am-i&quot;&gt;Who am I?&lt;/h3&gt;
+
+&lt;p&gt;Hello, My name is Palmaz. I’m a 20 year old Computing student currently on Placement, I primarily deal with data as an Data Analyst. I began my placement with little knowledge of working with large datasets and working with data in general. But I’ll leave my placement learnings for another time in another blog. This blogs purpose is to give you a quick introduction to me and my reasons for creating a webpage.&lt;/p&gt;
+
+&lt;h3 id=&quot;why-make-this-website&quot;&gt;Why make this website?&lt;/h3&gt;
+&lt;p&gt;I wanted to make my first post about my reasons for making this site and what I hope to learn in the process. Firstly I came up with the idea a few months ago, I wanted to create a website of somesort as I wanted to develop my web development skills. But I wasnt sure what to make the site on, I started brain storming potentail ideas which would give me plenty of learning opportunities as well as challenge me. I always wanted a platform inwhich I could display my projects which i work on in my own time. So I decided to create a webpage which would act as my Portfolio as well as a place for me to share my thoughts and findings.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;My main reasons for creating this page were:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;To get experience in creating and maintaining webpages/ Improve my web dev skills&lt;/li&gt;
+  &lt;li&gt;Start my portfolio&lt;/li&gt;
+  &lt;li&gt;Improve my writing skills - &lt;em&gt;Not my strong suit&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;Starting a Blog&lt;/li&gt;
+  &lt;li&gt;Create a long term project&lt;/li&gt;
+  &lt;li&gt;Showcase my general learnings&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;My Goals for this Project&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Be consistant with publishing my Blogs&lt;/li&gt;
+  &lt;li&gt;Improve and update the page often&lt;/li&gt;
+  &lt;li&gt;Build a strong portfolio which contains my learning journey&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Note - This page is likely to be updated as it’s the first post.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;!-- I really wanted a place where I could show case the projects I'm working on and projects I've completed in the past. I've always used Github as a place to store my projects as its great for accessing virtually on more than one machine. But I never used it as a platform for me to showcase my work. One of my personal interest in particular is automating processes, I find this interesting as it has the potential of making life so much easier and shorten time in doing &quot;the boring stuff&quot;.  --&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Created by - Palmaz Ahmad at </name>
+        
+        
+      </author>
+
+      
+        <category term="Personal" />
+      
+
+      
+
+      
+        <summary type="html">Who am I?</summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>

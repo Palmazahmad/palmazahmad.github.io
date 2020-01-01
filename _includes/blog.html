@@ -1,4 +1,4 @@
-<section class="blog">
+<section id="blog">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
@@ -18,6 +18,7 @@
             </tr>
             {% for post in site.posts limit: 5%}
             <tr>
+    
                 <td><a class="link" href="{{post.url}}">{{ post.title }}</a></td>
                 <td>{{ post.description }}</td>
                 <td>{{ post.category }}</td>
@@ -26,7 +27,6 @@
                 </tr> 
                 {% endfor %}
             </table>
-           
         
                 <div class="col-lg-12 text-center">
                     <br>
@@ -34,8 +34,6 @@
                     <hr class="star-light">
                 </div>
             
-            
-
                     <table class="btable">
                            
                         <tr>
@@ -63,7 +61,7 @@
                                     <h2>Tech</h2>
                                     <hr class="star-light">
                                 </div>
-                            </div>
+
                 
                                 <table class="btable">
                                        
@@ -84,8 +82,8 @@
                                             {% endif %}
                                             {% endfor %}
                                         </table>
-                                  
-    
-    </div>
-        
+                                </div>
+     </div>
+                               
  </section>
+

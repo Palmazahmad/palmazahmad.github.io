@@ -491,9 +491,10 @@ footer .footer-below {
     -webkit-transform: translateZ(0);
 }
 
-.blog { 
+#blog { 
     color: #fff;
     background-color: #{{ site.color.primary }} !important;
+    width: 100%;
 }
 .link{ 
     color: white;
@@ -542,5 +543,12 @@ table, th {
 .btn-outline-blog.active {
     color: #{{ site.color.primary }};
 }
-
-
+   
+@media only screen and (max-width: 550px) {
+    #blog {
+        width: 115vw;
+    }
+    .text-center { 
+        width: 115vw;
+    }  
+}

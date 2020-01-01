@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator>
   <link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2020-01-01T02:47:38+00:00</updated>
+  <updated>2020-01-01T16:07:25+00:00</updated>
   <id>http://localhost:4000/</id>
 
   
@@ -21,11 +21,11 @@
   
     <entry>
       <title type="html">New</title>
-      <link href="http://localhost:4000/personal/2019/12/31/New/" rel="alternate" type="text/html" title="New" />
+      <link href="http://localhost:4000/personal/New/" rel="alternate" type="text/html" title="New" />
       <published>2019-12-31T00:00:00+00:00</published>
       <updated>2019-12-31T00:00:00+00:00</updated>
-      <id>http://localhost:4000/personal/2019/12/31/New</id>
-      <content type="html" xml:base="http://localhost:4000/personal/2019/12/31/New/">&lt;h1&gt;New Year Goals&lt;/h1&gt;
+      <id>http://localhost:4000/personal/New</id>
+      <content type="html" xml:base="http://localhost:4000/personal/New/">&lt;h1&gt;New Year Goals&lt;/h1&gt;
 
 &lt;p&gt;change the number of posts on the latests blogs to 5.&lt;/p&gt;</content>
 
@@ -36,7 +36,7 @@
       
 
       <author>
-          <name>Created by - Palmaz Ahmad at </name>
+          <name>Created by - Palmaz Ahmad on </name>
         
         
       </author>
@@ -57,11 +57,11 @@
   
     <entry>
       <title type="html">Test</title>
-      <link href="http://localhost:4000/tech/2019/12/30/test/" rel="alternate" type="text/html" title="Test" />
+      <link href="http://localhost:4000/tech/test/" rel="alternate" type="text/html" title="Test" />
       <published>2019-12-30T00:00:00+00:00</published>
       <updated>2019-12-30T00:00:00+00:00</updated>
-      <id>http://localhost:4000/tech/2019/12/30/test</id>
-      <content type="html" xml:base="http://localhost:4000/tech/2019/12/30/test/">&lt;p&gt;Who am I?&lt;/p&gt;
+      <id>http://localhost:4000/tech/test</id>
+      <content type="html" xml:base="http://localhost:4000/tech/test/">&lt;p&gt;Who am I?&lt;/p&gt;
 
 &lt;p&gt;Hello, My name is Palmaz. I’m a 20 year old Computing student currently on Placement.&lt;/p&gt;</content>
 
@@ -72,7 +72,7 @@
       
 
       <author>
-          <name>Created by - Palmaz Ahmad at </name>
+          <name>Created by - Palmaz Ahmad on </name>
         
         
       </author>
@@ -93,11 +93,11 @@
   
     <entry>
       <title type="html">Hi everyone, I’m Palmaz</title>
-      <link href="http://localhost:4000/personal/2019/12/30/IntroToMe/" rel="alternate" type="text/html" title="Hi everyone, I'm Palmaz" />
+      <link href="http://localhost:4000/personal/IntroToMe/" rel="alternate" type="text/html" title="Hi everyone, I'm Palmaz" />
       <published>2019-12-30T00:00:00+00:00</published>
       <updated>2019-12-30T00:00:00+00:00</updated>
-      <id>http://localhost:4000/personal/2019/12/30/IntroToMe</id>
-      <content type="html" xml:base="http://localhost:4000/personal/2019/12/30/IntroToMe/">&lt;h3 id=&quot;who-am-i&quot;&gt;Who am I?&lt;/h3&gt;
+      <id>http://localhost:4000/personal/IntroToMe</id>
+      <content type="html" xml:base="http://localhost:4000/personal/IntroToMe/">&lt;h3 id=&quot;who-am-i&quot;&gt;Who am I?&lt;/h3&gt;
 
 &lt;p&gt;Hello, My name is Palmaz. I’m a 20 year old Computing student currently on Placement, I primarily deal with data as an Data Analyst. I began my placement with little knowledge of working with large datasets and working with data in general. But I’ll leave my placement learnings for another time in another blog. This blogs purpose is to give you a quick introduction to me and my reasons for creating a webpage.&lt;/p&gt;
 
@@ -134,7 +134,7 @@
       
 
       <author>
-          <name>Created by - Palmaz Ahmad at </name>
+          <name>Created by - Palmaz Ahmad on </name>
         
         
       </author>

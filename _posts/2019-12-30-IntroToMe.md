@@ -1,5 +1,5 @@
 ---
-title: Hi everyone, I'm Palmaz 
+title: "Hi everyone, I'm Palmaz" 
 category: Personal
 description: Let me Introduce myself...
 ---

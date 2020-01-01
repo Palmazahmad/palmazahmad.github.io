@@ -505,11 +505,17 @@ footer .footer-below {
     background-color: #3AAFA9 !important;
 }
 .link{ 
-    color: #fff;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    background-color: #17252A
 }
 
 .link:hover{ 
-    color: #17252A;
+   
+    text-decoration: none;
+    color: #3AAFA9;
+    background-color: white;
 }
 table{
     border-collapse: collapse;
@@ -520,12 +526,29 @@ table, th {
   }
   th { 
       color: #17252A;
-      font-size: large;
+      font-size: 25px;
       width:25%;
       padding: 10px 10px;
+      font-family: 'Rock Salt', cursive;
+      text-decoration: underline wavy white;
   }
   td {
       font-size: medium;
       padding: 10px 10px;
   }
+
+  .btn-outline-blog {
+    margin-top: 15px;
+    font-size: 20px;
+    color: #fff;
+    background: black;
+    transition: all .3s ease-in-out;
+}
+
+.btn-outline-blog:hover,
+.btn-outline-blog:focus,
+.btn-outline-blog:active,
+.btn-outline-blog.active {
+    color: #3AAFA9;
+}
 

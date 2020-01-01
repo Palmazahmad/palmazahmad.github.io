@@ -498,11 +498,17 @@ footer .footer-below {
     background-color: #{{ site.color.primary }} !important;
 }
 .link{ 
-    color: #fff;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    background-color: #{{ site.color.secondary }}
 }
 
 .link:hover{ 
-    color: #{{ site.color.secondary }};
+   
+    text-decoration: none;
+    color: #{{ site.color.primary }};
+    background-color: white;
 }
 table{
     border-collapse: collapse;
@@ -513,12 +519,29 @@ table, th {
   }
   th { 
       color: #{{ site.color.secondary }};
-      font-size: large;
+      font-size: 25px;
       width:25%;
       padding: 10px 10px;
+      font-family: 'Rock Salt', cursive;
+      text-decoration: underline wavy white;
   }
   td {
       font-size: medium;
       padding: 10px 10px;
   }
+
+  .btn-outline-blog {
+    margin-top: 15px;
+    font-size: 20px;
+    color: #fff;
+    background: black;
+    transition: all .3s ease-in-out;
+}
+
+.btn-outline-blog:hover,
+.btn-outline-blog:focus,
+.btn-outline-blog:active,
+.btn-outline-blog.active {
+    color: #{{ site.color.primary }};
+}
 

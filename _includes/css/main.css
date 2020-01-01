@@ -546,11 +546,14 @@ table, th {
    
 @media only screen and (max-width: 550px) {
     #blogger {
-        width: 115vw;
+        width: 125vw;
     }
-     #flow { 
-        width: 115vw;
-    }  
+      #flow { 
+        width: 120vw;
+    }   
+    #flow2 { 
+        width: 125vw;
+    }   
     #postspadding {
         padding: 5px 5px;
     }

@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator>
   <link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2020-01-02T14:51:39+00:00</updated>
+  <updated>2020-01-02T14:54:16+00:00</updated>
   <id>http://localhost:4000/</id>
 
   
@@ -125,8 +125,8 @@
     </entry>
   
     <entry>
-      <title type="html">Hi everyone, I’m Palmaz</title>
-      <link href="http://localhost:4000/personal/1/" rel="alternate" type="text/html" title="Hi everyone, I'm Palmaz" />
+      <title type="html">Hi Everyone, I’m Palmaz</title>
+      <link href="http://localhost:4000/personal/1/" rel="alternate" type="text/html" title="Hi Everyone, I'm Palmaz" />
       <published>2019-12-30T00:00:00+00:00</published>
       <updated>2019-12-30T00:00:00+00:00</updated>
       <id>http://localhost:4000/personal/1</id>

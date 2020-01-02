@@ -68,7 +68,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      author: "Created by - Palmaz Ahmad on "
+      author: "Posted by - Palmaz Ahmad on "
       permalink: /:categories/:title/
       
      

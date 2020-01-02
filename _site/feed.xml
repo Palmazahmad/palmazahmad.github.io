@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator>
   <link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2020-01-02T14:19:30+00:00</updated>
+  <updated>2020-01-02T14:22:01+00:00</updated>
   <id>http://localhost:4000/</id>
 
   
@@ -58,7 +58,8 @@ Since the age of 4 I’ve trained in multiple martial arts such as Kickboxing (&
   &lt;li&gt;Python Scripts&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;And more!!&lt;/p&gt;
+&lt;p&gt;And more!! 
+&lt;br /&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;Note - This page is likely to be updated as it’s the first post.&lt;/p&gt;

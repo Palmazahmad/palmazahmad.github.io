@@ -11,10 +11,10 @@
             <table class="btable">
            
             <tr>
-                <th>Title</th>
-                <th>Description</th>
-                <th>Category</th>
-                <th>Date</th>    
+                <th>Title:</th>
+                <th>Description:</th>
+                <th>Category:</th>
+                <th>Date:</th>    
             </tr>
             {% for post in site.posts limit: 5%}
             <tr>
@@ -22,7 +22,7 @@
                 <td><a class="link" href="{{post.url}}">{{ post.title }}</a></td>
                 <td>{{ post.description }}</td>
                 <td>{{ post.category }}</td>
-                 <td>{{ post.date }}</td>
+                 <td>{{ post.dates }}</td>
 
                 </tr> 
                 {% endfor %}
@@ -37,10 +37,10 @@
                     <table class="btable">
                            
                         <tr>
-                            <th>Title</th>
-                            <th>Description</th>
-                            <th>Category</th>
-                            <th>Date</th>    
+                            <th>Title:</th>
+                            <th>Description:</th>
+                            <th>Category:</th>
+                            <th>Date:</th>    
                         </tr>
                         {% for post in site.posts %}
                             {% if post.category == 'Personal' %}
@@ -48,7 +48,7 @@
                             <td><a class="link" href="{{post.url}}">{{ post.title }}</a></td>
                             <td>{{ post.description }}</td>
                             <td>{{ post.category }}</td>
-                             <td>{{ post.date }}</td>
+                             <td>{{ post.dates }}</td>
                 
                             </tr> 
                             {% endif %}
@@ -66,17 +66,17 @@
                                 <table class="btable">
                                        
                                     <tr>
-                                        <th class="titleLink">Title</th>
-                                        <th>Description</th>
-                                        <th>Category</th>
-                                        <th>Date</th>    
+                                        <th class="titleLink">Title:</th>
+                                        <th>Description:</th>
+                                        <th>Category:</th>
+                                        <th>Date:</th>    
                                     </tr>
                                         {% for post in site.posts %} {% if post.category == 'Tech' %}
                                          <tr>
                                             <td><a class="link" href="{{post.url}}">{{ post.title }}</a></td>
                                             <td>{{ post.description }}</td>
                                             <td>{{ post.category }}</td>
-                                             <td>{{ post.date }}</td>
+                                             <td>{{ post.dates }}</td>
                                 
                                             </tr> 
                                             {% endif %}

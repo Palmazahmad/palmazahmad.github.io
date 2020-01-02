@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator>
   <link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2020-01-02T14:29:49+00:00</updated>
+  <updated>2020-01-02T14:51:39+00:00</updated>
   <id>http://localhost:4000/</id>
 
   
@@ -18,6 +18,111 @@
   
 
   
+  
+    <entry>
+      <title type="html">Big Data LDN Conference 2019</title>
+      <link href="http://localhost:4000/tech/2/" rel="alternate" type="text/html" title="Big Data LDN Conference 2019" />
+      <published>2020-01-01T00:00:00+00:00</published>
+      <updated>2020-01-01T00:00:00+00:00</updated>
+      <id>http://localhost:4000/tech/2</id>
+      <content type="html" xml:base="http://localhost:4000/tech/2/">&lt;h3 id=&quot;what-is-big-data-ldn&quot;&gt;What is Big Data LDN?&lt;/h3&gt;
+&lt;p&gt;Big Data LDN (London) is a tech conferenece focusing on Data. It’s a free two day event held in Olympia London, honestly it’s a combination between a ‘Conference’ and an ‘Exibition’. There were 4 ‘technical talk’ theatres Confernece halls and 4 ‘Strategy Sessions’ where comapines would come and talk about either something they are working on or created or a particular problem/ concept.&lt;/p&gt;
+
+&lt;h3 id=&quot;why-did-i-go&quot;&gt;Why did I go?&lt;/h3&gt;
+&lt;p&gt;I attended this conference for many reasons. My reasons where both personal and business related as I could use the knowledge gained at this event to better myself and also bring insightful information back to the company Im currently working for. Here’s some of the reasons why I went:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;To Network&lt;/li&gt;
+  &lt;li&gt;Understand Data’s progression in Industry&lt;/li&gt;
+  &lt;li&gt;Attend my first major professional conference.&lt;/li&gt;
+  &lt;li&gt;What companies are trying to do with their Data.&lt;/li&gt;
+  &lt;li&gt;Find out What tools are out there&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;some-intresting-facts--&quot;&gt;Some Intresting Facts -&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;In the last two years -&amp;gt; 90% of all data has been collected.&lt;/li&gt;
+  &lt;li&gt;only around 9% of business deal with ‘&lt;em&gt;Data Maturity&lt;/em&gt;’
+    &lt;ul&gt;
+      &lt;li&gt;Problems which they face include - ‘Complexity &amp;amp; Security’&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;AI is: ‘&lt;strong&gt;&lt;em&gt;Predictions + Automation + Optimisation&lt;/em&gt;&lt;/strong&gt;’&lt;/li&gt;
+  &lt;li&gt;Only 10% of business have adopted AI&lt;/li&gt;
+  &lt;li&gt;Information drives value (Business value)
+    &lt;ul&gt;
+      &lt;li&gt;2009 Largest Companies included - PetroChina, Exxon Mobil, Industrial &amp;amp; Commercial Bank of China, China Mobile, Microsoft. (Only two out of top 10 Companies are tech related)&lt;/li&gt;
+      &lt;li&gt;2019 Largest Companies included - 
+  Apple, Microsoft, Amazon, Alphabet, Berkshire Hathaway (8 out of top 10 Companies)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Statistics provided by IBM, Clouderia, Colibria&lt;/p&gt;
+  &lt;h3 id=&quot;what-i-learnt&quot;&gt;What I learnt:&lt;/h3&gt;
+  &lt;p&gt;During the &lt;a href=&quot;https://bigdataldn.com/seminar-schedule/how-ai-gives-you-superpowers/&quot;&gt;IBM talk&lt;/a&gt; presented by &lt;strong&gt;Rob Thomas&lt;/strong&gt; (General Manager - IBM Data &amp;amp; AI), he spoke a lot about AI and the direction businesses can go towards using AI.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Firstly AI (Artificial Intelligence) is intelligence showed by a computer/machine which is simillar to natural intelligence showed by us humans.&lt;/p&gt;
+
+&lt;p&gt;AI - what it is, why so little people adopted it, ‘AI is only as good as your data’, MIT Study&lt;/p&gt;
+
+&lt;h3 id=&quot;what-it-made-me-realise&quot;&gt;What It made me realise:&lt;/h3&gt;
+&lt;p&gt;I wanted to change the structure of our Data in certian enviroments…&lt;/p&gt;
+
+&lt;h3 id=&quot;my-overall-thoughts&quot;&gt;My overall thoughts:&lt;/h3&gt;
+&lt;p&gt;pros&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;liked the structure of the day&lt;/li&gt;
+  &lt;li&gt;the app was very useful&lt;/li&gt;
+  &lt;li&gt;good concepts covered such as…&lt;/li&gt;
+  &lt;li&gt;LOT’S OF FREE STUFF&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Cons&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Some talks compaines tried selling themselves too much&lt;/li&gt;
+  &lt;li&gt;very simillar kind of products, noting stood out too well&lt;/li&gt;
+  &lt;li&gt;take personal detials (badge)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Note: This was my first time attending this conference.
+&lt;br /&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;!-- Sources: 
+- https://www.economywatch.com/economy-business-and-finance-news/largest-companies-biggest-companies-in-world-2009-27-08.html
+- 
+-  --&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Posted by - Palmaz Ahmad on </name>
+        
+        
+      </author>
+
+      
+        <category term="Tech" />
+      
+
+      
+
+      
+        <summary type="html">What is Big Data LDN? Big Data LDN (London) is a tech conferenece focusing on Data. It’s a free two day event held in Olympia London, honestly it’s a combination between a ‘Conference’ and an ‘Exibition’. There were 4 ‘technical talk’ theatres Confernece halls and 4 ‘Strategy Sessions’ where comapines would come and talk about either something they are working on or created or a particular problem/ concept.</summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">Hi everyone, I’m Palmaz</title>

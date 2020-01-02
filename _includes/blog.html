@@ -19,7 +19,7 @@
             {% for post in site.posts limit: 5%}
             <tr>
     
-                <td><a class="link" href="{{post.url}}">{{ post.title }}</a></td>
+                <td><button class="link" type="button" onclick="window.location.href='{{post.url}}';">{{ post.title }}</button></td>
                 <td>{{ post.description }}</td>
                 <td>{{ post.category }}</td>
                  <td>{{ post.dates }}</td>
@@ -45,7 +45,7 @@
                         {% for post in site.posts %}
                             {% if post.category == 'Personal' %}
                          <tr>
-                            <td><a class="link" href="{{post.url}}">{{ post.title }}</a></td>
+                            <td><button class="link" type="button" onclick="window.location.href='{{post.url}}';">{{ post.title }}</button></td>
                             <td>{{ post.description }}</td>
                             <td>{{ post.category }}</td>
                              <td>{{ post.dates }}</td>
@@ -73,7 +73,7 @@
                                     </tr>
                                         {% for post in site.posts %} {% if post.category == 'Tech' %}
                                          <tr>
-                                            <td><a class="link" href="{{post.url}}">{{ post.title }}</a></td>
+                                            <td><button class="link" type="button" onclick="window.location.href='{{post.url}}';">{{ post.title }}</button></td>
                                             <td>{{ post.description }}</td>
                                             <td>{{ post.category }}</td>
                                              <td>{{ post.dates }}</td>

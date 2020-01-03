@@ -32,28 +32,32 @@ During the [IBM talk](https://bigdataldn.com/seminar-schedule/how-ai-gives-you-s
 
 Firstly AI (Artificial Intelligence) is intelligence showed by a computer/machine which is simillar to natural intelligence showed by us humans. 
 
-AI - what it is, why so little people adopted it, 'AI is only as good as your data', MIT Study 
 
-### What It made me realise: ###
-I wanted to change the structure of our Data in certian enviroments...
+### to be continued...
 
 
-### My overall thoughts: ###
-pros 
-- liked the structure of the day 
-- the app was very useful 
-- good concepts covered such as... 
-- LOT'S OF FREE STUFF 
+<!-- AI - what it is, why so little people adopted it, 'AI is only as good as your data', MIT Study 
 
-Cons
+<!--### What It made me realise: ###
+<!--I wanted to change the structure of our Data in certian enviroments...
+
+
+<!--### My overall thoughts: ###
+<!--pros 
+<!--- liked the structure of the day 
+<!--- the app was very useful 
+<!--- good concepts covered such as... 
+<!--- LOT'S OF FREE STUFF 
+
+<!--Cons
 - Some talks compaines tried selling themselves too much 
 - very simillar kind of products, noting stood out too well 
-- take personal detials (badge)
+- take personal detials (badge)  -->
 
-<br>
+<!--<br>
 
 >Note: This was my first time attending this conference.
-<br>
+<br>  
 
 
 <!-- Sources: 

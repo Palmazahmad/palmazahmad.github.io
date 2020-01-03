@@ -27,10 +27,11 @@ I attended this conference for many reasons. My reasons where both personal and 
     Apple, Microsoft, Amazon, Alphabet, Berkshire Hathaway (8 out of top 10 Companies)
 
 >Statistics provided by IBM, Clouderia, Colibria
-### What I learnt: ###
+
+### What I learnt:
 During the [IBM talk](https://bigdataldn.com/seminar-schedule/how-ai-gives-you-superpowers/) presented by **Rob Thomas** (General Manager - IBM Data & AI), he spoke a lot about AI and the direction businesses can go towards using AI.
 
-Firstly AI (Artificial Intelligence) is intelligence showed by a computer/machine which is simillar to natural intelligence showed by us humans. 
+<!--Firstly AI (Artificial Intelligence) is intelligence showed by a computer/machine which is simillar to natural intelligence showed by us humans. 
 
 
 ### to be continued...

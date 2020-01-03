@@ -33,7 +33,7 @@ If you want to stick to excel but have too much data you can use Power Pivot. Th
 
 It's great when it comes to importing data from multiple source. This means you can import .SQL, .txt, Access database document and others. This gives you the freedom of being able to Import any type of data file, even if your data is in a standard text file. (Please use CSV...)
 
-**3\. Microsoft Access
+**3\. Microsoft Access **
 
 This tool is another database but simpler format. You can straight type or enter what settings you want and import data easily using .CSV. This is great if you have never used SQL or not too great at it. 
 

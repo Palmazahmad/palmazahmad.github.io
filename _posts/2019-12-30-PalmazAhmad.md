@@ -29,7 +29,7 @@ I also enjoy creating small but useful projects in my free time, I have recently
 
 ### Sneak Peak ### 
 What I'm likely to post soon : 
-* Big Data LDN 2019 (Data Conference)
+* [Big Data LDN 2019 (Data Conference)](https://www.palmazahmad.com/tech/BigDataLDN/) 
 * [Importing Large Data Sets](https://www.palmazahmad.com/tech/Large-Data-Sets/) 
 * Goals for ~~2019~~ 2020
 * Python Scripts

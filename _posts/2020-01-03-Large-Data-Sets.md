@@ -13,7 +13,6 @@ Many people don't realise how difficult it can be when working with large data s
 
 This issue can be problematic especially if you work with large data sets. I personally had this problem as some imports held over 12 million records per Object / Class and Excel just wasn't the tool to use. 
 <br>
-
 <br> 
 
 #### If you want to view your Data there are some options available to you at this point: ####

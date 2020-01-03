@@ -32,12 +32,10 @@ FROM public."TABLENAME"
 If you want to stick to excel but have too much data you can use Power Pivot. This tool allows you to analyse large datasets, it can handle 100+ million rows. It's considered as using a pivot table for a large dataset. 
 
 It's great when it comes to importing data from multiple source. This means you can import .SQL, .txt, Access database document and others. This gives you the freedom of being able to Import any type of data file, even if your data is in a standard text file. (Please use CSV...)
-
+<br>
 <p><b>3. Microsoft Access</b></p>
 
 This tool is another database but simpler format. You can straight type or enter what settings you want and import data easily using .CSV. This is great if you have never used SQL or not too great at it. 
-
-<br> 
 
 ### Overall ### 
 There are other ways to import large data which I haven't mentioned above but these are the most common. Especially if you want to view and manipulate it. I personally prefer the database method as I can call and edit what I want and using SQL is much easier for me rather than click and drag. 

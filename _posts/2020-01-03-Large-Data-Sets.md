@@ -12,6 +12,7 @@ Many people don't realise how difficult it can be when working with large data s
 >Column limit of **16,384**
 
 This issue can be problematic especially if you work with large data sets. I personally had this problem as some imports held over 12 million records per Object / Class and Excel just wasn't the tool to use. 
+<br>
 
 #### If you want to view your Data there are some options available to you at this point: ####
 
@@ -32,7 +33,7 @@ FROM public."TABLENAME"
 If you want to stick to excel but have too much data you can use Power Pivot. This tool allows you to analyse large datasets, it can handle 100+ million rows. It's considered as using a pivot table for a large dataset. 
 
 It's great when it comes to importing data from multiple source. This means you can import .SQL, .txt, Access database document and others. This gives you the freedom of being able to Import any type of data file, even if your data is in a standard text file. (Please use CSV...)
-<br>
+
 <p><b>3. Microsoft Access</b></p>
 
 This tool is another database but simpler format. You can straight type or enter what settings you want and import data easily using .CSV. This is great if you have never used SQL or not too great at it. 

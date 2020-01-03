@@ -1,4 +1,4 @@
-I"A<h3 id="who-am-i">Who am I?</h3>
+I"�<h3 id="who-am-i">Who am I?</h3>
 
 <p>Hello, My name is Palmaz. I’m a 20 year old Computing student currently on Placement, I primarily deal with data as an Data Analyst. I began my placement with little knowledge of working with large datasets and working with data in general. But I’ll leave my placement learning’s for another time in another blog. This blog’s purpose is to give you a quick introduction to me and my reasons for creating a webpage.</p>
 
@@ -25,8 +25,8 @@ Since the age of 4 I’ve trained in multiple martial arts such as Kickboxing (&
 <h3 id="sneak-peak">Sneak Peak</h3>
 <p>What I’m likely to post soon :</p>
 <ul>
-  <li>Big Data LDN 2019 (Data Conference)</li>
-  <li>Working With Large Data</li>
+  <li><a href="https://www.palmazahmad.com/tech/BigDataLDN/">Big Data LDN 2019 (Data Conference)</a></li>
+  <li><a href="https://www.palmazahmad.com/tech/Large-Data-Sets/">Importing Large Data Sets</a></li>
   <li>Goals for <del>2019</del> 2020</li>
   <li>Python Scripts</li>
 </ul>

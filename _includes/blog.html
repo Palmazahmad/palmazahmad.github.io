@@ -21,7 +21,7 @@
     
                 <td><button class="link" type="button" onclick="window.location.href='{{post.url}}';">{{ post.title }}</button></td>
                 <td>{{ post.description }}</td>
-                <td>{{ post.category }}</td>
+                <td><b>{{ post.category }}</b></td>
                  <td>{{ post.dates }}</td>
 
                 </tr> 
@@ -45,10 +45,10 @@
                         {% for post in site.posts %}
                             {% if post.category == 'Personal' %}
                          <tr>
-                            <td><button class="link" type="button" onclick="window.location.href='{{post.url}}';">{{ post.title }}</button></td>
+                            <td><button class="link" id="buttonz" type="button" onclick="window.location.href='{{post.url}}';">{{ post.title }}</button></td>
                             <td>{{ post.description }}</td>
-                            <td>{{ post.category }}</td>
-                             <td>{{ post.dates }}</td>
+                            <td><b>{{ post.category }}</b></td>
+                            <td>{{ post.dates }}</td>
                 
                             </tr> 
                             {% endif %}
@@ -75,8 +75,8 @@
                                          <tr>
                                             <td><button class="link" type="button" onclick="window.location.href='{{post.url}}';">{{ post.title }}</button></td>
                                             <td>{{ post.description }}</td>
-                                            <td>{{ post.category }}</td>
-                                             <td>{{ post.dates }}</td>
+                                            <td><b>{{ post.category }}</b></td>
+                                            <td>{{ post.dates }}</td>
                                 
                                             </tr> 
                                             {% endif %}

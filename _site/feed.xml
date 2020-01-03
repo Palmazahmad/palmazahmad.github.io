@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator>
   <link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2020-01-02T14:54:16+00:00</updated>
+  <updated>2020-01-03T20:40:27+00:00</updated>
   <id>http://localhost:4000/</id>
 
   
@@ -20,12 +20,84 @@
   
   
     <entry>
+      <title type="html">Importing Large Data Sets</title>
+      <link href="http://localhost:4000/tech/Large-Data-Sets/" rel="alternate" type="text/html" title="Importing Large Data Sets" />
+      <published>2020-01-03T00:00:00+00:00</published>
+      <updated>2020-01-03T00:00:00+00:00</updated>
+      <id>http://localhost:4000/tech/Large-Data-Sets</id>
+      <content type="html" xml:base="http://localhost:4000/tech/Large-Data-Sets/">&lt;h3 id=&quot;working-with-large-data-sets&quot;&gt;Working With Large Data Sets&lt;/h3&gt;
+&lt;p&gt;Many people don’t realise how difficult it can be when working with large data sets. Often people resort to using Excel to view and manipulate their data, this works sometimes &lt;strong&gt;but not every time&lt;/strong&gt;. Excel has certain limitations which confine the data itself. These include:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Row limit of &lt;strong&gt;1,048,576&lt;/strong&gt;&lt;br /&gt;
+Column limit of &lt;strong&gt;16,384&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This issue can be problematic especially if you work with large data sets. I personally had this problem as some imports held over 12 million records per Object / Class and Excel just wasn’t the tool to use. 
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;if-you-want-to-view-your-data-there-are-some-options-available-to-you-at-this-point&quot;&gt;If you want to view your Data there are some options available to you at this point:&lt;/h4&gt;
+
+&lt;p&gt;&lt;strong&gt;1. Import into a Database&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Databases allow you to store data in fields and tables with no limit in size. You can set constraints on the  fields too, to match your data. The Database is really your choice but lately I’ve been using &lt;a href=&quot;https://www.postgresql.org&quot;&gt;Postgres&lt;/a&gt;. The syntax is slightly different to mysql but its really simple to use. Once you have everything set up and ready to go all you have to do is import your data. Depending on the number of fields - I set the fields myself as you have control on the data types and other extras such as ‘Not Null’, ‘Primary Key’ etc. And that’s it. Now you can use SQL to query the data.&lt;/p&gt;
+
+&lt;p&gt;If you’re using Postgres Pg4 admin tool, to view all your data use this:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-SQL&quot;&gt;SELECT * 
+FROM public.&quot;TABLENAME&quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;One annoying problem is unlike other major data management studios it doesn’t include the functionality of reading the first column lines as fields automatically.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;2. Power Pivot (In Excel)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;If you want to stick to excel but have too much data you can use Power Pivot. This tool allows you to analyse large datasets, it can handle 100+ million rows. It’s considered as using a pivot table for a large dataset.&lt;/p&gt;
+
+&lt;p&gt;It’s great when it comes to importing data from multiple source. This means you can import .SQL, .txt, Access database document and others. This gives you the freedom of being able to Import any type of data file, even if your data is in a standard text file. (Please use CSV…)&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;3. Microsoft Access&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;This tool is another database but simpler format. You can straight type or enter what settings you want and import data easily using .CSV. This is great if you have never used SQL or not too great at it.&lt;/p&gt;
+
+&lt;h3 id=&quot;overall&quot;&gt;Overall&lt;/h3&gt;
+&lt;p&gt;There are other ways to import large data which I haven’t mentioned above but these are the most common. Especially if you want to view and manipulate it. I personally prefer the database method as I can call and edit what I want and using SQL is much easier for me rather than click and drag.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Posted by - Palmaz Ahmad on </name>
+        
+        
+      </author>
+
+      
+        <category term="Tech" />
+      
+
+      
+
+      
+        <summary type="html">Working With Large Data Sets Many people don’t realise how difficult it can be when working with large data sets. Often people resort to using Excel to view and manipulate their data, this works sometimes but not every time. Excel has certain limitations which confine the data itself. These include:</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
       <title type="html">Big Data LDN Conference 2019</title>
-      <link href="http://localhost:4000/tech/2/" rel="alternate" type="text/html" title="Big Data LDN Conference 2019" />
+      <link href="http://localhost:4000/tech/BigDataLDN/" rel="alternate" type="text/html" title="Big Data LDN Conference 2019" />
       <published>2020-01-01T00:00:00+00:00</published>
       <updated>2020-01-01T00:00:00+00:00</updated>
-      <id>http://localhost:4000/tech/2</id>
-      <content type="html" xml:base="http://localhost:4000/tech/2/">&lt;h3 id=&quot;what-is-big-data-ldn&quot;&gt;What is Big Data LDN?&lt;/h3&gt;
+      <id>http://localhost:4000/tech/BigDataLDN</id>
+      <content type="html" xml:base="http://localhost:4000/tech/BigDataLDN/">&lt;h3 id=&quot;what-is-big-data-ldn&quot;&gt;What is Big Data LDN?&lt;/h3&gt;
 &lt;p&gt;Big Data LDN (London) is a tech conferenece focusing on Data. It’s a free two day event held in Olympia London, honestly it’s a combination between a ‘Conference’ and an ‘Exibition’. There were 4 ‘technical talk’ theatres Confernece halls and 4 ‘Strategy Sessions’ where comapines would come and talk about either something they are working on or created or a particular problem/ concept.&lt;/p&gt;
 
 &lt;h3 id=&quot;why-did-i-go&quot;&gt;Why did I go?&lt;/h3&gt;
@@ -59,39 +131,42 @@
 
 &lt;blockquote&gt;
   &lt;p&gt;Statistics provided by IBM, Clouderia, Colibria&lt;/p&gt;
-  &lt;h3 id=&quot;what-i-learnt&quot;&gt;What I learnt:&lt;/h3&gt;
-  &lt;p&gt;During the &lt;a href=&quot;https://bigdataldn.com/seminar-schedule/how-ai-gives-you-superpowers/&quot;&gt;IBM talk&lt;/a&gt; presented by &lt;strong&gt;Rob Thomas&lt;/strong&gt; (General Manager - IBM Data &amp;amp; AI), he spoke a lot about AI and the direction businesses can go towards using AI.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;Firstly AI (Artificial Intelligence) is intelligence showed by a computer/machine which is simillar to natural intelligence showed by us humans.&lt;/p&gt;
+&lt;h3 id=&quot;what-i-learnt&quot;&gt;What I learnt:&lt;/h3&gt;
+&lt;p&gt;During the &lt;a href=&quot;https://bigdataldn.com/seminar-schedule/how-ai-gives-you-superpowers/&quot;&gt;IBM talk&lt;/a&gt; presented by &lt;strong&gt;Rob Thomas&lt;/strong&gt; (General Manager - IBM Data &amp;amp; AI), he spoke a lot about AI and the direction businesses can go towards using AI.&lt;/p&gt;
 
-&lt;p&gt;AI - what it is, why so little people adopted it, ‘AI is only as good as your data’, MIT Study&lt;/p&gt;
+&lt;h3 id=&quot;to-be-continued&quot;&gt;to be continued…&lt;/h3&gt;
 
-&lt;h3 id=&quot;what-it-made-me-realise&quot;&gt;What It made me realise:&lt;/h3&gt;
-&lt;p&gt;I wanted to change the structure of our Data in certian enviroments…&lt;/p&gt;
+&lt;!--Firstly AI (Artificial Intelligence) is intelligence showed by a computer/machine which is simillar to natural intelligence showed by us humans. 
 
-&lt;h3 id=&quot;my-overall-thoughts&quot;&gt;My overall thoughts:&lt;/h3&gt;
-&lt;p&gt;pros&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;liked the structure of the day&lt;/li&gt;
-  &lt;li&gt;the app was very useful&lt;/li&gt;
-  &lt;li&gt;good concepts covered such as…&lt;/li&gt;
-  &lt;li&gt;LOT’S OF FREE STUFF&lt;/li&gt;
-&lt;/ul&gt;
 
-&lt;p&gt;Cons&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Some talks compaines tried selling themselves too much&lt;/li&gt;
-  &lt;li&gt;very simillar kind of products, noting stood out too well&lt;/li&gt;
-  &lt;li&gt;take personal detials (badge)&lt;/li&gt;
-&lt;/ul&gt;
 
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;Note: This was my first time attending this conference.
-&lt;br /&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
+
+&lt;!-- AI - what it is, why so little people adopted it, 'AI is only as good as your data', MIT Study 
+
+&lt;!--### What It made me realise: ###
+&lt;!--I wanted to change the structure of our Data in certian enviroments...
+
+
+&lt;!--### My overall thoughts: ###
+&lt;!--pros 
+&lt;!--- liked the structure of the day 
+&lt;!--- the app was very useful 
+&lt;!--- good concepts covered such as... 
+&lt;!--- LOT'S OF FREE STUFF 
+
+&lt;!--Cons
+- Some talks compaines tried selling themselves too much 
+- very simillar kind of products, noting stood out too well 
+- take personal detials (badge)  --&gt;
+
+&lt;!--&lt;br&gt;
+
+&gt;Note: This was my first time attending this conference.
+&lt;br&gt;  
+
 
 &lt;!-- Sources: 
 - https://www.economywatch.com/economy-business-and-finance-news/largest-companies-biggest-companies-in-world-2009-27-08.html
@@ -126,11 +201,11 @@
   
     <entry>
       <title type="html">Hi Everyone, I’m Palmaz</title>
-      <link href="http://localhost:4000/personal/1/" rel="alternate" type="text/html" title="Hi Everyone, I'm Palmaz" />
+      <link href="http://localhost:4000/personal/PalmazAhmad/" rel="alternate" type="text/html" title="Hi Everyone, I'm Palmaz" />
       <published>2019-12-30T00:00:00+00:00</published>
       <updated>2019-12-30T00:00:00+00:00</updated>
-      <id>http://localhost:4000/personal/1</id>
-      <content type="html" xml:base="http://localhost:4000/personal/1/">&lt;h3 id=&quot;who-am-i&quot;&gt;Who am I?&lt;/h3&gt;
+      <id>http://localhost:4000/personal/PalmazAhmad</id>
+      <content type="html" xml:base="http://localhost:4000/personal/PalmazAhmad/">&lt;h3 id=&quot;who-am-i&quot;&gt;Who am I?&lt;/h3&gt;
 
 &lt;p&gt;Hello, My name is Palmaz. I’m a 20 year old Computing student currently on Placement, I primarily deal with data as an Data Analyst. I began my placement with little knowledge of working with large datasets and working with data in general. But I’ll leave my placement learning’s for another time in another blog. This blog’s purpose is to give you a quick introduction to me and my reasons for creating a webpage.&lt;/p&gt;
 
@@ -157,8 +232,8 @@ Since the age of 4 I’ve trained in multiple martial arts such as Kickboxing (&
 &lt;h3 id=&quot;sneak-peak&quot;&gt;Sneak Peak&lt;/h3&gt;
 &lt;p&gt;What I’m likely to post soon :&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;Big Data LDN 2019 (Data Conference)&lt;/li&gt;
-  &lt;li&gt;Working With Large Data&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.palmazahmad.com/tech/BigDataLDN/&quot;&gt;Big Data LDN 2019 (Data Conference)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.palmazahmad.com/tech/Large-Data-Sets/&quot;&gt;Importing Large Data Sets&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;Goals for &lt;del&gt;2019&lt;/del&gt; 2020&lt;/li&gt;
   &lt;li&gt;Python Scripts&lt;/li&gt;
 &lt;/ul&gt;

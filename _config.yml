@@ -23,7 +23,7 @@ collections:
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: 3AAFA9 #80B3FF
+  primary: 3AAFA9 #A64AC9 #47cc66 #9615bd # #80B3FF
   primary-rgb: "24,288,156" #"128,179,255"
   secondary: 17252A #FD6E8A
   secondary-dark: 2B7A78 #A2122F
@@ -41,8 +41,8 @@ social:
     url: https://www.linkedin.com/in/palmaz
   - title: twitter
     url: http://twitter.com/palmazahmadd
-  - title: facebook
-    url: https://www.facebook.com/palmaz.ahmad.1
+  # - title: facebook
+  #   url: https://www.facebook.com/palmaz.ahmad.1
   - title: instagram
     url: http://instagram.com/palmazahmad
   - title: github

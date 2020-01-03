@@ -31,10 +31,12 @@ I attended this conference for many reasons. My reasons where both personal and 
 ### What I learnt:
 During the [IBM talk](https://bigdataldn.com/seminar-schedule/how-ai-gives-you-superpowers/) presented by **Rob Thomas** (General Manager - IBM Data & AI), he spoke a lot about AI and the direction businesses can go towards using AI.
 
+### to be continued...
+
 <!--Firstly AI (Artificial Intelligence) is intelligence showed by a computer/machine which is simillar to natural intelligence showed by us humans. 
 
 
-### to be continued...
+
 
 
 <!-- AI - what it is, why so little people adopted it, 'AI is only as good as your data', MIT Study 

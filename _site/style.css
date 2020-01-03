@@ -529,7 +529,7 @@ table, th {
       width:25%;
       padding: 10px 10px;
       font-family: 'Rock Salt', cursive;
-      text-decoration: underline wavy white;
+      text-decoration: underline white;
   }
   td {
       font-size: medium;
@@ -562,13 +562,14 @@ table, th {
         width: 125vw;
     }   
     #postspadding {
-        padding: 5px 5px;
+        padding: 0px 17px;
     }
-    /* button for blog page
-    button {
-        font-size: 
-    } 
-    */
+     
+    /* Blog page button edits for mobile */
+    /* #buttonz {
+       font-size:
+    }  */
+    
 } 
 
 

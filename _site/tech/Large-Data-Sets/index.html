@@ -3,12 +3,12 @@
     <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Palmaz Ahmad</title>
+    <title>Importing Large Data Sets</title>
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="Webpage Containg Palmaz Ahmads portfolio. This includes a Blog and Projects both previously worked on and current.">
     <meta name="keywords" content="your keywords, separated by commas" />
     <meta name="author" content="LastName FirstName">
-    <link rel="canonical" href="http://localhost:4000/blog/">
+    <link rel="canonical" href="http://localhost:4000/tech/Large-Data-Sets/">
     <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml">
 
     <link rel="icon" type="image/png" href="/img/favicon.png">
@@ -74,128 +74,72 @@
         <!-- /.container-fluid -->
     </nav>
     
-    <section id="blogger" class="blog">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <br>
-                <h2>Latest Blogs</h2>
-                <hr class="star-light">
-            
-        </div>
-        
-            <table class="btable">
-           
-            <tr>
-                <th>Title:</th>
-                <th>Description:</th>
-                <th>Category:</th>
-                <th>Date:</th>    
-            </tr>
-            
-            <tr>
-    
-                <td><button class="link" type="button" onclick="window.location.href='/tech/Large-Data-Sets/';">Importing Large Data Sets</button></td>
-                <td>Tips and Tricks When Importing Extremly Large Data</td>
-                <td><b>Tech</b></td>
-                 <td>03-01-2020</td>
-
-                </tr> 
-                
-            <tr>
-    
-                <td><button class="link" type="button" onclick="window.location.href='/tech/BigDataLDN/';">Big Data LDN Conference 2019</button></td>
-                <td>Atteneded Big Data Conference</td>
-                <td><b>Tech</b></td>
-                 <td>01-01-2020</td>
-
-                </tr> 
-                
-            <tr>
-    
-                <td><button class="link" type="button" onclick="window.location.href='/personal/PalmazAhmad/';">Hi Everyone, I'm Palmaz</button></td>
-                <td>Let me Introduce myself...</td>
-                <td><b>Personal</b></td>
-                 <td>30-12-2019</td>
-
-                </tr> 
-                
-            </table>
-        
+    <div id="flow2">
+<section class="post">
+        <div class="container">
+                <div id="postspadding"> 
+            <div class="row">
                 <div class="col-lg-12 text-center">
                     <br>
-                    <h2>Personal</h2>
-                    <hr class="star-light">
+                    <h1>Importing Large Data Sets </h1>
+                    Posted by - Palmaz Ahmad on  03-01-2020 
+                    <hr class="star-primary-post">
                 </div>
-            
-                    <table class="btable">
-                           
-                        <tr>
-                            <th>Title:</th>
-                            <th>Description:</th>
-                            <th>Category:</th>
-                            <th>Date:</th>    
-                        </tr>
-                        
-                            
-                            
-                            
-                            
-                            
-                         <tr>
-                            <td><button class="link" id="buttonz" type="button" onclick="window.location.href='/personal/PalmazAhmad/';">Hi Everyone, I'm Palmaz</button></td>
-                            <td>Let me Introduce myself...</td>
-                            <td><b>Personal</b></td>
-                            <td>30-12-2019</td>
-                
-                            </tr> 
-                            
-                            
-                        </table>
+                    <h3 id="working-with-large-data-sets">Working With Large Data Sets</h3>
+<p>Many people don’t realise how difficult it can be when working with large data sets. Often people resort to using Excel to view and manipulate their data, this works sometimes <strong>but not every time</strong>. Excel has certain limitations which confine the data itself. These include:</p>
 
-                        
-                                <div class="col-lg-12 text-center">
-                                    <br>
-                                    <h2>Tech</h2>
-                                    <hr class="star-light">
-                                </div>
+<blockquote>
+  <p>Row limit of <strong>1,048,576</strong><br />
+Column limit of <strong>16,384</strong></p>
+</blockquote>
+
+<p>This issue can be problematic especially if you work with large data sets. I personally had this problem as some imports held over 12 million records per Object / Class and Excel just wasn’t the tool to use. 
+<br />
+<br /></p>
+
+<h4 id="if-you-want-to-view-your-data-there-are-some-options-available-to-you-at-this-point">If you want to view your Data there are some options available to you at this point:</h4>
+
+<p><strong>1. Import into a Database</strong></p>
+
+<p>Databases allow you to store data in fields and tables with no limit in size. You can set constraints on the  fields too, to match your data. The Database is really your choice but lately I’ve been using <a href="https://www.postgresql.org">Postgres</a>. The syntax is slightly different to mysql but its really simple to use. Once you have everything set up and ready to go all you have to do is import your data. Depending on the number of fields - I set the fields myself as you have control on the data types and other extras such as ‘Not Null’, ‘Primary Key’ etc. And that’s it. Now you can use SQL to query the data.</p>
+
+<p>If you’re using Postgres Pg4 admin tool, to view all your data use this:</p>
+<pre><code class="language-SQL">SELECT * 
+FROM public."TABLENAME"
+</code></pre>
+
+<blockquote>
+  <p>One annoying problem is unlike other major data management studios it doesn’t include the functionality of reading the first column lines as fields automatically.</p>
+</blockquote>
+
+<p><strong>2. Power Pivot (In Excel)</strong></p>
+
+<p>If you want to stick to excel but have too much data you can use Power Pivot. This tool allows you to analyse large datasets, it can handle 100+ million rows. It’s considered as using a pivot table for a large dataset.</p>
+
+<p>It’s great when it comes to importing data from multiple source. This means you can import .SQL, .txt, Access database document and others. This gives you the freedom of being able to Import any type of data file, even if your data is in a standard text file. (Please use CSV…)</p>
+
+<p><b>3. Microsoft Access</b></p>
+
+<p>This tool is another database but simpler format. You can straight type or enter what settings you want and import data easily using .CSV. This is great if you have never used SQL or not too great at it.</p>
+
+<h3 id="overall">Overall</h3>
+<p>There are other ways to import large data which I haven’t mentioned above but these are the most common. Especially if you want to view and manipulate it. I personally prefer the database method as I can call and edit what I want and using SQL is much easier for me rather than click and drag.</p>
 
                 
-                                <table class="btable">
-                                       
-                                    <tr>
-                                        <th class="titleLink">Title:</th>
-                                        <th>Description:</th>
-                                        <th>Category:</th>
-                                        <th>Date:</th>    
-                                    </tr>
-                                         
-                                         <tr>
-                                            <td><button class="link" type="button" onclick="window.location.href='/tech/Large-Data-Sets/';">Importing Large Data Sets</button></td>
-                                            <td>Tips and Tricks When Importing Extremly Large Data</td>
-                                            <td><b>Tech</b></td>
-                                            <td>03-01-2020</td>
-                                
-                                            </tr> 
-                                            
-                                             
-                                         <tr>
-                                            <td><button class="link" type="button" onclick="window.location.href='/tech/BigDataLDN/';">Big Data LDN Conference 2019</button></td>
-                                            <td>Atteneded Big Data Conference</td>
-                                            <td><b>Tech</b></td>
-                                            <td>01-01-2020</td>
-                                
-                                            </tr> 
-                                            
-                                             
-                                            
-                                        </table>
-                                </div>
-     </div>
-                               
+                
+            </div>
+            <br>
+            <br>
+               
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <a href="/blog" class="btn btn-lg btn-outline-blog">
+                        </i> Back to Blogs
+                    </a>
+                </div>
+            </div>
+            </div>
  </section>
-
-
+</div>
 
         <!-- Footer -->
     <footer class="text-center" >

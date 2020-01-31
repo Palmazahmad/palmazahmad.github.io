@@ -75,7 +75,7 @@ hr.star-primary-post {
 
 hr.star-primary-post:after {
     color: #{{ site.color.secondary }};
-    background-color: #fff;
+     background-color: #fff; 
 }
 
 
@@ -94,7 +94,7 @@ hr.star-primary:after {
 
 
 hr.star-light {
-    border-color: #fff;
+    border-color: #{{ site.color.secondary }};;
 }
 
 hr.star-light:after {
@@ -492,8 +492,8 @@ footer .footer-below {
 }
 
 .blog { 
-    color: #fff;
-    background-color: #{{ site.color.primary }} !important;
+    color: #{{ site.color.secondary }} !important;
+    background-color: fff;
     width: 100%;
 }
 .link{ 
@@ -504,20 +504,23 @@ footer .footer-below {
 }
 
 .link:hover{ 
-   
     text-decoration: none;
-    color: #{{ site.color.primary }};
+    color: #{{ site.color.secondary }} !important;
     background-color: white;
 }
 table{
     border-collapse: collapse;
     width: 100%;
+    background:  #{{ site.color.primary }};
+    color :white;
   }
+
+
 table, th {
-    border: 2px solid white;
+    border: 2px solid #{{ site.color.secondary }}
   }
   th { 
-      color: #{{ site.color.secondary }};
+      color: fff;
       font-size: 25px;
       width:25%;
       padding: 10px 10px;
@@ -535,6 +538,37 @@ table, th {
     color: #fff;
     background: black;
     transition: all .3s ease-in-out;
+}
+ #PersonalTable { 
+    border-collapse: collapse;
+    background-color: #{{ site.color.secondary }};
+    border: 2px solid #{{ site.color.primary}};
+    /* makes table shake */
+    animation: skew 3s infinite;
+    transform: skew(2deg);
+    animation-direction: alternate;
+}
+
+/* makes the table shake */
+@keyframes skew {
+    0% {
+      transform: skewX(2deg);
+    }
+    100% {
+      transform: skewX(-2deg);
+    }
+  }
+
+#tester { 
+background-color: black;
+
+}
+
+#buttonz{ 
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    background-color: #{{ site.color.primary }}
 }
 
 .btn-outline-blog:hover,

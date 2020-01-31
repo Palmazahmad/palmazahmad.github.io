@@ -82,7 +82,7 @@ hr.star-primary-post {
 
 hr.star-primary-post:after {
     color: #551a8b;
-    background-color: #fff;
+     background-color: #fff; 
 }
 
 
@@ -101,7 +101,7 @@ hr.star-primary:after {
 
 
 hr.star-light {
-    border-color: #fff;
+    border-color: #551a8b;;
 }
 
 hr.star-light:after {
@@ -499,8 +499,8 @@ footer .footer-below {
 }
 
 .blog { 
-    color: #fff;
-    background-color: #2d8984 !important;
+    color: #551a8b !important;
+    background-color: fff;
     width: 100%;
 }
 .link{ 
@@ -511,20 +511,23 @@ footer .footer-below {
 }
 
 .link:hover{ 
-   
     text-decoration: none;
-    color: #2d8984;
+    color: #551a8b !important;
     background-color: white;
 }
 table{
     border-collapse: collapse;
     width: 100%;
+    background:  #2d8984;
+    color :white;
   }
+
+
 table, th {
-    border: 2px solid white;
+    border: 2px solid #551a8b
   }
   th { 
-      color: #551a8b;
+      color: fff;
       font-size: 25px;
       width:25%;
       padding: 10px 10px;
@@ -542,6 +545,37 @@ table, th {
     color: #fff;
     background: black;
     transition: all .3s ease-in-out;
+}
+ #PersonalTable { 
+    border-collapse: collapse;
+    background-color: #551a8b;
+    border: 2px solid #2d8984;
+    /* makes table shake */
+    animation: skew 3s infinite;
+    transform: skew(2deg);
+    animation-direction: alternate;
+}
+
+/* makes the table shake */
+@keyframes skew {
+    0% {
+      transform: skewX(2deg);
+    }
+    100% {
+      transform: skewX(-2deg);
+    }
+  }
+
+#tester { 
+background-color: black;
+
+}
+
+#buttonz{ 
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    background-color: #2d8984
 }
 
 .btn-outline-blog:hover,

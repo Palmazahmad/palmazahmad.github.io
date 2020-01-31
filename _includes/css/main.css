@@ -500,7 +500,8 @@ footer .footer-below {
     color: white;
     text-decoration: none;
     padding: 5px;
-    background-color: #{{ site.color.secondary }}
+    background-color: #{{ site.color.secondary }};
+    border-radius: 15px;
 }
 
 .link:hover{ 
@@ -568,8 +569,17 @@ background-color: black;
     color: white;
     text-decoration: none;
     padding: 5px;
-    background-color: #{{ site.color.primary }}
+    background-color: #{{ site.color.primary }};
+    border-radius: 15px;
+
 }
+
+#buttonz:hover{ 
+    text-decoration: none;
+    color: #{{ site.color.primary }} !important;
+    background-color: white;
+}
+
 
 .btn-outline-blog:hover,
 .btn-outline-blog:focus,

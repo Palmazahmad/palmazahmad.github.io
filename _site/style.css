@@ -507,7 +507,8 @@ footer .footer-below {
     color: white;
     text-decoration: none;
     padding: 5px;
-    background-color: #551a8b
+    background-color: #551a8b;
+    border-radius: 15px;
 }
 
 .link:hover{ 
@@ -575,8 +576,17 @@ background-color: black;
     color: white;
     text-decoration: none;
     padding: 5px;
-    background-color: #2d8984
+    background-color: #2d8984;
+    border-radius: 15px;
+
 }
+
+#buttonz:hover{ 
+    text-decoration: none;
+    color: #2d8984 !important;
+    background-color: white;
+}
+
 
 .btn-outline-blog:hover,
 .btn-outline-blog:focus,

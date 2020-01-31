@@ -215,6 +215,7 @@ section h2 {
     font-size: 3em;
 }
 
+/* background for about */
 section.success {
     color: #fff;
     background: #{{ site.color.primary }};
@@ -491,11 +492,14 @@ footer .footer-below {
     -webkit-transform: translateZ(0);
 }
 
+/* Blog page Container */
 .blog { 
     color: #{{ site.color.secondary }} !important;
     background-color: fff;
     width: 100%;
 }
+
+/* Inside button text blogs */
 .link{ 
     color: white;
     text-decoration: none;
@@ -504,11 +508,14 @@ footer .footer-below {
     border-radius: 15px;
 }
 
+/* Inside button text */
 .link:hover{ 
     text-decoration: none;
     color: #{{ site.color.secondary }} !important;
     background-color: white;
 }
+
+/* Blog page tables - Latest & Tech */
 table{
     border-collapse: collapse;
     width: 100%;
@@ -516,7 +523,7 @@ table{
     color :white;
   }
 
-
+/* Blog page tables - Latest & Tech */
 table, th {
     border: 2px solid #{{ site.color.secondary }}
   }
@@ -533,13 +540,16 @@ table, th {
       padding: 10px 10px;
   }
 
+  /* Post Button */
   .btn-outline-blog {
     margin-top: 15px;
     font-size: 20px;
     color: #fff;
-    background: black;
+    background: #{{ site.color.secondary }};;
     transition: all .3s ease-in-out;
 }
+
+/* Personal Table */
  #PersonalTable { 
     border-collapse: collapse;
     background-color: #{{ site.color.secondary }};
@@ -560,11 +570,9 @@ table, th {
     }
   }
 
-#tester { 
-background-color: black;
 
-}
 
+/* Personal Table button */
 #buttonz{ 
     color: white;
     text-decoration: none;
@@ -574,6 +582,7 @@ background-color: black;
 
 }
 
+/* Personal Table button */
 #buttonz:hover{ 
     text-decoration: none;
     color: #{{ site.color.primary }} !important;
@@ -581,13 +590,22 @@ background-color: black;
 }
 
 
+/* post button (inside each post */
 .btn-outline-blog:hover,
 .btn-outline-blog:focus,
 .btn-outline-blog:active,
 .btn-outline-blog.active {
-    color: #{{ site.color.primary }};
+    color: #{{ site.color.secondary }} !important;
+    background-color: #fff;
+    border-color: #{{ site.color.secondary }} !important;
+    border: solid 2px #fff;
 }
-   
+
+.PostH1 { 
+    color: #{{ site.color.primary }} !important;;
+}
+
+   /* blog page for mobile */
 @media only screen and (max-width: 550px) {
     #blogger {
         width: 125vw;
@@ -602,18 +620,9 @@ background-color: black;
         padding: 0px 17px;
     }
      
-    /* Blog page button edits for mobile */
-    /* #buttonz {
-       font-size:
-    }  */
-    
-
 } 
 
-/* #about {  */
-    /* width: 90%; */
-    /* transform:rotate(2deg); */
-/* } */
+
 
 
 

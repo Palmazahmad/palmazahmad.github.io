@@ -4,39 +4,38 @@ category: Personal
 description: Let me Introduce myself...
 dates: 30-12-2019
 ---
-### Who am I? ###
+<h3 class="PostH1"> Who am I? </h3>
 
-Hello, My name is Palmaz. I'm a 20 year old Computing student currently on Placement, I primarily deal with data as an Data Analyst. I began my placement with little knowledge of working with large datasets and working with data in general. But I'll leave my placement learning's for another time in another blog. This blog's purpose is to give you a quick introduction to me and my reasons for creating a webpage.
+Hello, My name is Palmaz. I'm a 20 year old Computing student currently on Placement, as an Data Analyst. I began my placement with little knowledge of working with large data, manipulating large datasets and working with data in general. But I'll leave my placement learning's in upcoming posts.
 
-### Why make this website? ###
+<h3 class="PostH1"> Why make this website?</h3>
 I wanted to make my first post about my reasons for making this site and what I hope to learn in the process. Firstly I came up with the idea a few months ago, I wanted to create a website of some sort as I wanted to develop my web development skills. But I wasn't sure what to make the site on, I started brain storming potential ideas which would give me plenty of learning opportunities as well as challenge me. I always wanted a platform in which I could display my projects which I work on in my own time. So I decided to create a webpage which would act as my Portfolio as well as a place for me to share my thoughts and findings.
 
 
-**My main reasons for creating this page were:**
-- To get experience in creating and maintaining webpages/ Improve my web dev skills
-- Start my portfolio
-- Improve my writing skills - *Not my strong suit* 
-- Starting a Blog 
-- Create a long term project
-- Showcase my general finding's
+<h3 class="PostH1"> My main reasons for creating this page were: </h3>
+<ul>
+<h5><li>To get experience in creating and maintaining webpages/ Improve my web dev skills</li></h5>
+<h5><li> Start my portfolio </li></h5>
+<h5><li> Improve my writing skills - *Not my strong suit* </li></h5>
+<h5><li> Create a long term project </li></h5>
+<h5><li> Showcase my general finding's </li></h5>
+</ul>
 
-### My Hobbies ### 
- ![1stdegree](/img/1stblackbelt.jpg)  ![Blackbelt](/img/blackbelt.jpg)  
-<br>
-Since the age of 4 I've trained in multiple martial arts such as Kickboxing (& American Style), Taekwondo (Traditional & Competitive), MMA, Thai Boxing, Boxing, Hapkido and others. I've competed internationally and won majors. I have over 14 years experience and have recently stopped to pursue other interests. I currently hold a 2nd Degree Blackbelt in Taekwondo (ITF). 
+<h3 class="PostH1"> My Hobbies </h3>
+ <!-- ![1stdegree](/img/1stblackbelt.jpg)  ![Blackbelt](/img/blackbelt.jpg)   -->
+<p> <img src="/img/blackbelt.jpg" alt="BlackBelt 2nd Degree" align="left" style="padding:10px" >
+   Since the age of 4 I've trained in multiple martial arts such as Kickboxing (& American Style), Taekwondo (Traditional & Competitive), MMA, Thai Boxing, Boxing, Hapkido and others. I've competed internationally and won majors. I have over 14 years experience and have recently stopped to pursue other interests. I currently hold a 2nd Degree Blackbelt in Taekwondo (ITF). </p>
 
-I also enjoy creating small but useful projects in my free time, I have recently started learning Python. The reason why I decided to learn Python was automation. At work I needed to automate the process of exporting meta data from a system. I needed to extract from an .XML and (extracting certain tags) import them into an excel work sheet. I spoke to a colleague, who suggested a Python script. At the time I had never created a script so my colleague helped me create a script to automate this large process. Again I'll go into detail about this script another time. Since then I've been learning and creating scripts for automating tasks as well as for fun.
+   <p>I also enjoy creating small but useful projects in my free time, I have recently started learning Python. The reason why I decided to learn Python was automation. At work I needed to automate the process of exporting meta data from a system.  I needed to extract from an .XML and (extracting certain tags) import them into an excel work sheet. I spoke to a colleague, who suggested a Python script. At the time I had never created a script so my colleague helped me create a script to automate this large process. Again I'll go into detail about this script another time. Since then I've been learning and creating scripts for automating tasks as well as for fun.</p>
 
-### Sneak Peak ### 
-What I'm likely to post soon : 
-* [Big Data LDN 2019 (Data Conference)](https://www.palmazahmad.com/tech/BigDataLDN/) 
-* [Importing Large Data Sets](https://www.palmazahmad.com/tech/Large-Data-Sets/) 
-* Goals for ~~2019~~ 2020
-* Python Scripts
+<h3 class="PostH1"> Sneak Peak - Likey to be the next Posts!</h3>
 
-And more!! 
-<br>
+<h5><li>Goals for 2020 </li><h5>
+<h5><li>Python Scripts</li></h5>
+<h5><li><a href="https://www.palmazahmad.com/tech/BigDataLDN/">Big Data LDN 2019 [Click me]</a></li></h5>
+<h5><li><a href="https://www.palmazahmad.com/tech/Large-Data-Sets/">Importing Large Data Sets [Click me] </a></li></h5>
 
->Note - This page is likely to be updated as it's the first post.
+
+
 
 

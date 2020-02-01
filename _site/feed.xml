@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator>
   <link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2020-01-31T23:41:20+00:00</updated>
+  <updated>2020-02-01T00:05:19+00:00</updated>
   <id>http://localhost:4000/</id>
 
   
@@ -18,6 +18,68 @@
   
 
   
+  
+    <entry>
+      <title type="html">Goals for 2020</title>
+      <link href="http://localhost:4000/personal/Goals-2020/" rel="alternate" type="text/html" title="Goals for 2020" />
+      <published>2020-01-29T00:00:00+00:00</published>
+      <updated>2020-01-29T00:00:00+00:00</updated>
+      <id>http://localhost:4000/personal/Goals-2020</id>
+      <content type="html" xml:base="http://localhost:4000/personal/Goals-2020/">&lt;h3 class=&quot;PostH1&quot;&gt;Personal Goals &lt;/h3&gt;
+&lt;p&gt;For my personal Goals I have a few in mind. Some may seem easy and other won’t, reason for the variety is as I want to challenge myself as well as have fun. If the goals don’t challenge you to a certain extent then there’s no point of them. Mine are Technical Goals as this is the area I want to improve this year!&lt;/p&gt;
+&lt;h6 class=&quot;PostH1&quot;&gt; My goals this year include:&lt;/h6&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;h5&gt;Post at least one blog per month&lt;/h5&gt;&lt;/li&gt;
+&lt;li&gt;&lt;h5&gt;Learn Python to an Advanced level&lt;/h5&gt;&lt;/li&gt;
+&lt;li&gt;&lt;h5&gt;Use a new tool/ software every month&lt;/h5&gt;&lt;/li&gt;
+&lt;li&gt;&lt;h5&gt;Improve my web dev skills &lt;/h5&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 class=&quot;PostH1&quot;&gt;Placement Goals &lt;/h3&gt;
+&lt;p&gt;I have recently reached the 6th month mark in my placement and I have achieved my goals I set for myself at this point. I really want to expand my network and skills and the best way I see this happening is by working with people across the business in areas I wouldn’t necessarily work with.&lt;/p&gt;
+&lt;h6 class=&quot;PostH1&quot;&gt; My goals this year include:&lt;/h6&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;h5&gt;Present Externally&lt;/h5&gt; &lt;/li&gt;
+&lt;li&gt;&lt;h5&gt;Complete Current Data Migration Successfully&lt;/h5&gt;&lt;/li&gt;
+&lt;li&gt;&lt;h5&gt;Branch out to teams in R&amp;amp;D or Manufacturing&lt;/h5&gt;&lt;/li&gt;
+&lt;li&gt;&lt;h5&gt;Improve internal Communication&lt;/h5&gt;&lt;/li&gt;
+&lt;li&gt;&lt;h5&gt;&lt;/h5&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I will be writing an update post every now and again with a progress report which will likely be linked below this if one exists.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Note - These Goals may be adapted or changed depending on performance!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;to-be-continued&quot;&gt;TO BE CONTINUED…&lt;/h3&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>Posted by - Palmaz Ahmad on </name>
+        
+        
+      </author>
+
+      
+        <category term="Personal" />
+      
+
+      
+
+      
+        <summary type="html">Personal Goals For my personal Goals I have a few in mind. Some may seem easy and other won’t, reason for the variety is as I want to challenge myself as well as have fun. If the goals don’t challenge you to a certain extent then there’s no point of them. Mine are Technical Goals as this is the area I want to improve this year! My goals this year include: Post at least one blog per month Learn Python to an Advanced level Use a new tool/ software every month Improve my web dev skills</summary>
+      
+
+      
+      
+    </entry>
   
     <entry>
       <title type="html">Importing Large Data Sets</title>

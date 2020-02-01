@@ -221,6 +221,11 @@ section.success {
     background: #{{ site.color.primary }};
 }
 
+/* About homepage text */
+#aboutText {
+    width:100%;
+}
+
 @media(max-width:767px) {
     section {
         padding: 75px 0;

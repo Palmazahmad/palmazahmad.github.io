@@ -53,7 +53,7 @@ quote: “The purpose of life is a life with a purpose. So I’d rather die for 
 
 
 # Blog content
-blog: 'My Blog contains all my own thoughts and learings which must not be taken as anything else.'
+blog: 'My Blog contains all my own thoughts and learnings which must not be considered as anything else.'
 
 # Build settings
 markdown: kramdown

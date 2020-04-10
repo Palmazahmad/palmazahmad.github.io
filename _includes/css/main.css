@@ -594,7 +594,9 @@ table, th {
     background-color: white;
 }
 
-
+.PortfolioButton{ 
+    background-color: #{{ site.color.secondary-dark }}
+}
 /* post button (inside each post */
 .btn-outline-blog:hover,
 .btn-outline-blog:focus,
@@ -607,12 +609,13 @@ table, th {
 }
 
 .PostH1 { 
-    color: #{{ site.color.primary }} !important;;
+    color: #{{ site.color.secondary }} !important;;
 }
+
 
    /* blog page for mobile */
 @media only screen and (max-width: 550px) {
-    #blogger {
+    #blogger #PortfolioPageId {
         width: 125vw;
     }
       #flow { 
@@ -626,6 +629,8 @@ table, th {
     }
      
 } 
+
+
 
 
 

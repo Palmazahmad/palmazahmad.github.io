@@ -8,7 +8,7 @@
     <meta name="description" content="Webpage Containg Palmaz Ahmads portfolio. This includes a Blog and Projects both previously worked on and current.">
     <meta name="keywords" content="your keywords, separated by commas" />
     <meta name="author" content="LastName FirstName">
-    <link rel="canonical" href="http://localhost:4000/">
+    <link rel="canonical" href="http://localhost:4000/Portfolio/">
     <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml">
     
     <link rel="icon" type="image/png" href="/img/favicon.png">
@@ -37,8 +37,8 @@
 </head>
 
     <body id="page-top" class="index">
-       <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top">
+      <!-- Navigation -->
+  <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
@@ -57,14 +57,14 @@
                     <li class="hidden">
                         <a href="#page-top"></a>
                     </li>
-                    <li class="PortfolioButton">
+                    <li>
                         <a href="/index">Home</a>
                     </li>
                     <li>
                         <a href="/blog">Blog</a>
                     </li>
                     <li>
-                        <a href="/Portfolio">Portfolio</a>
+                        <a href="/Portfolio" class="PortfolioButton">Portfolio</a>
                     </li>
                    
                 </ul>
@@ -73,53 +73,86 @@
         </div>
         <!-- /.container-fluid -->
     </nav>
-        <!-- Header -->
-    <div id="flow2">
-    <header>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <img class="img-responsive" src="img/profile.png" alt="">
-                    <div class="intro-text">
-                        <span class="name">Palmaz Ahmad</span>
-                        <hr class="star-light">
-                        <span class="skills">Data Analyst - Student - Martial Artist</span>
+    <section id="portfolio" class="Portfolio">
+    <div id="flow2"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                
+                <br>
+                <h2>Portfolio</h2>
+                <hr class="star-light" id="tester">
+            </div>
+        </div>
+                <div class="col-12">
+                    <p>These are Projects i have created from scratch throughout the years, they include projects developed in Java, Python, Php, TSQL and others. Each project includes a description alongside the relevent tags. There are links to each project to allow you to download and use each one.</p>
+                </div>
+
+                
+  
+                  
+                 <div class="row"> 
+                     <div class="col-lg-12 text-center">
+                        <h2>Projects</h2>
+                            <hr class="star-primary">
+                     </div>
+                                            </div>
+                            <div class="row">
+                                
+                                    <div class="col-sm-4 portfolio-item">
+                                        <a href="#portfolioModal-1" class="portfolio-link" data-toggle="modal">
+                                            <div class="caption">
+                                                <div class="caption-content">
+                                                    <i class="fa fa-search-plus fa-3x"></i>
+                                                </div>
+                                            </div>
+                                            <img src="/img/portfolio/JavaGame.png" class="img-responsive" alt="gold blocks">
+                                            <div class="ProjectTitle">
+                                                <h4>Platformer Game - java</h4>
+                                            </div>
+                                        </a>
+                                    </div>
+                                 
+                                    <div class="col-sm-4 portfolio-item">
+                                        <a href="#portfolioModal-3" class="portfolio-link" data-toggle="modal">
+                                            <div class="caption">
+                                                <div class="caption-content">
+                                                    <i class="fa fa-search-plus fa-3x"></i>
+                                                </div>
+                                            </div>
+                                            <img src="/img/portfolio/Rock-Paper-Scissors-PY.jpeg" class="img-responsive" alt="image-alt">
+                                            <div class="ProjectTitle">
+                                                <h4>Rock, Paper, Scissors - Python</h4>
+                                            </div>
+                                        </a>
+                                    </div>
+                                 
+                                    <div class="col-sm-4 portfolio-item">
+                                        <a href="#portfolioModal-2" class="portfolio-link" data-toggle="modal">
+                                            <div class="caption">
+                                                <div class="caption-content">
+                                                    <i class="fa fa-search-plus fa-3x"></i>
+                                                </div>
+                                            </div>
+                                            <img src="/img/portfolio/YoutubeMp3.png" class="img-responsive" alt="image-alt">
+                                            <div class="ProjectTitle">
+                                                <h4>Youtube to MP3 - Python</h4>
+                                            </div>
+                                        </a>
+                                    </div>
+                                 
+                            </div>
+                            
+                        </div>
                     </div>
-                </div>
-            </div>
-        </div>
-    </header>
-    </div>
-    
-     <!-- About Section -->
- <div id="flow2">
-    <section class="success" id="about">
+              
+                
+     </div>
+                               
+ </section>
 
-        <div class="container" id="aboutText">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>About</h2>
-                    <hr class="star-light">
-                </div>
-            </div>
-            <div class="row">
-                <div class ="about"> 
-                <div class="col-lg-4 col-lg-offset-2">
-                    <p>My name is Palmaz Ahmad and I'm a University student studying Computing currently on Placement. I mainly work as an Analyst heavily related to data.</p>
-                </div>
-                <div class="col-lg-4">
-                    <p>I have also created a blog too, this will include Personal, Tech related, University Journals and more. Click the button below to check out what's up already. </p>
-                </div>
-                </div>
-            </div>
-                <div class="col-lg-8 col-lg-offset-2 text-center" id="flow">
-                    <a href="/blog" class="btn btn-lg btn-outline">Read my Blog</a>
-                </div>
-            </div>
-        </div>
-    </section>
 
-   
+
 
         <!-- Footer -->
     <footer class="text-center" >

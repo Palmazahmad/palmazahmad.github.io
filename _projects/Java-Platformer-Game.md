@@ -3,7 +3,7 @@ title: Platformer Game - java
 modal-id: 1
 date: 06-06-2019
 img: JavaGame.png
-alt: image-alt
+alt: gold blocks
 category: Java
 project-date: 06/06/2019
 description: Platformer game in which I am the main character

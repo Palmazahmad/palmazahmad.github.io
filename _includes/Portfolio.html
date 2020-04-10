@@ -1,0 +1,50 @@
+<section id="portfolio" class="Portfolio">
+    <div id="flow2"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                
+                <br>
+                <h2>Portfolio</h2>
+                <hr class="star-light" id="tester">
+            </div>
+        </div>
+                <div class="col-12">
+                    <p>These are Projects i have created from scratch throughout the years, they include projects developed in Java, Python, Php, TSQL and others. Each project includes a description alongside the relevent tags. There are links to each project to allow you to download and use each one.</p>
+                </div>
+
+                
+  
+                  
+                 <div class="row"> 
+                     <div class="col-lg-12 text-center">
+                        <h2>Projects</h2>
+                            <hr class="star-primary">
+                     </div>
+                                            </div>
+                            <div class="row">
+                                {% for project in site.projects %}
+                                    <div class="col-sm-4 portfolio-item">
+                                        <a href="#portfolioModal-{{ project.modal-id }}" class="portfolio-link" data-toggle="modal">
+                                            <div class="caption">
+                                                <div class="caption-content">
+                                                    <i class="fa fa-search-plus fa-3x"></i>
+                                                </div>
+                                            </div>
+                                            <img src="/img/portfolio/{{ project.img }}" class="img-responsive" alt="{{ project.alt }}">
+                                            <div class="ProjectTitle">
+                                                <h4>{{project.title}}</h4>
+                                            </div>
+                                        </a>
+                                    </div>
+                                 {% endfor %}
+                            </div>
+                            {{content}}
+                        </div>
+                    </div>
+              
+                
+     </div>
+                               
+ </section>
+

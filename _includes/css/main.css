@@ -560,9 +560,9 @@ table, th {
     background-color: #{{ site.color.secondary }};
     border: 2px solid #{{ site.color.primary}};
     /* makes table shake */
-    animation: skew 3s infinite;
-    transform: skew(2deg);
-    animation-direction: alternate;
+    /* animation: skew 3s infinite; */
+    /* transform: skew(2deg); */
+    /*  animation-direction: alternate; */
 }
 
 /* makes the table shake */

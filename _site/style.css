@@ -567,9 +567,9 @@ table, th {
     background-color: #551a8b;
     border: 2px solid #0371ea;
     /* makes table shake */
-    animation: skew 3s infinite;
-    transform: skew(2deg);
-    animation-direction: alternate;
+    /* animation: skew 3s infinite; */
+    /* transform: skew(2deg); */
+    /*  animation-direction: alternate; */
 }
 
 /* makes the table shake */

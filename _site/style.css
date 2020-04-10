@@ -622,9 +622,13 @@ table, th {
 
    /* blog page for mobile */
 @media only screen and (max-width: 550px) {
-    #blogger #PortfolioPageId {
+    #blogger {
         width: 125vw;
     }
+    #portfolio {
+        width: 125vw;
+    }
+
       #flow { 
         width: 120vw;
     }   
